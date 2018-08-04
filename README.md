@@ -1,3 +1,6 @@
+
+[博客：TransitionAnimation 自定义转场动画](https://ios-misaki.github.io/iOS-Misaki.github.io/2018/08/04/TransitionAnimation-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%BD%AC%E5%9C%BA%E5%8A%A8%E7%94%BB/)
+
 &ensp;&ensp;&ensp;&ensp;在` iOS 7 `之后，苹果就开放了自定义转场的相关` api `，现在都快` iOS 12 `了，一直都没有好好研究转场动画，一个是之前没有重视，觉得花里胡哨的，另外一个是所做的项目中没有这样的转场动画需求。这里说的转场动画和上一篇[CAAnimation 系统动画](https://ios-misaki.github.io/iOS-Misaki.github.io/2018/07/26/CAAnimation%20%E7%B3%BB%E5%88%97%E5%8A%A8%E7%94%BB/)中` CATransition `动画不是一个概念，上一篇指的是单个View的转场特效，这里指的是整个控制器的转场特效。其实写上篇文章的目前也是为今天打下铺垫，复杂的转场效果也是由单个动画来组成的。
 
 ![自定义转场动画类图](https://yuyiios-work.oss-cn-shanghai.aliyuncs.com/%E5%8D%9A%E5%AE%A2/TransitionAnimation%E8%BD%AC%E5%9C%BA%E5%8A%A8%E7%94%BB/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%BD%AC%E5%9C%BA%E5%8A%A8%E7%94%BB%E7%B1%BB%E5%9B%BE.png)
